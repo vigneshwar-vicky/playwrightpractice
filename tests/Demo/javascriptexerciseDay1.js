@@ -12,7 +12,7 @@ console.log("****************************");
 
 //2.Use `const` to declare a variable for a constant value (e.g., the speed of light). Use `let` for another variable representing a changeable value.
 const text="Constant String Text Can't be Changed";
-// text='vicky';  (for my i used this line withot comment this it throws an error bcoz it is constant variable following error was thrown  "TypeError: Assignment to constant variable")
+// text='vicky';  (for my learning i used this line without comment this it throws an error bcoz it is constant variable following error was thrown  "TypeError: Assignment to constant variable")
 let second='Changable text';
 console.log("Answer for Question 2");
 console.log(text);

@@ -44,6 +44,15 @@ let Avg2:number=25;
 let Avg3:number=110;
 let Avg4:number=35;
 
+let AvgArray:number[]=[12,55,34,90];
+let sumAvg=0;
+let lengtharray=AvgArray.length; //length of the array
+for(let i=0;i<AvgArray.length;i++)
+{
+        sumAvg+=AvgArray[i];  // sumAvg = sumAvg+arrayvalue 0+12 -- 12+55 -- 67+34-- 101+90 -- 191
+} 
+console.log(sumAvg/lengtharray); //191/4 = 47.75
+
 let Avg=(Avg1+Avg2+Avg3+Avg4)/4;
 console.log("Answer for Question 5");
 console.log("Average of given Numbers : "  +Avg);
